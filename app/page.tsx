@@ -104,7 +104,7 @@ export default function Home() {
                     <Input placeholder="user query here" {...field} />
                   </FormControl>
                   <FormDescription>
-                    Add related topics keywords here. eg "Latest Viral News"
+                    Add related topics keywords here. eg &quot;Latest Viral News&quot;
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
