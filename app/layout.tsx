@@ -22,6 +22,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/images/favicon.ico" />
       </head>
       <body className={publicSans.className}>
+        <aside role="status" aria-label="Version de démonstration" style={{ position: "fixed", bottom: 0, left: 0, right: 0, zIndex: 2147483647, padding: "8px 16px", background: "#172554", color: "#fff", textAlign: "center", font: "13px/1.4 system-ui,sans-serif", boxShadow: "0 -1px 6px #0002" }}>Démonstration de l’interface — certaines fonctionnalités ne sont pas connectées.</aside>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
